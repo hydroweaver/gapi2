@@ -1,0 +1,30 @@
+Steps explaining that even though you unsub, it will still work!
+
+Are you hooked....add all times in watch later history and show... Simple
+
+<!-- 1. add using http call 
+2. decide on what to show
+3. add head title
+4. LOGOUT AUTO NEEDS TO BE ADDED - https://developers.google.com/identity/sign-in/web/sign-in
+5. Server side vs client side api - whats the need ? - https://developers.google.com/identity/protocols/oauth2/javascript-implicit-flow
+6. User verification token? - After a user successfully signs in, get the user's ID token: / https://developers.google.com/identity/sign-in/web/backend-auth
+7. Google Domain -> Forward to Github pages site -> Functions  -> Google API
+8. Setup Heroku Later
+9. // NODEMON
+10. Bootstrap / materialize
+11. Add code to function - add everthing and then module.exports - https://stackoverflow.com/questions/59868667/how-to-deploy-express-js-server-to-netlify
+12. https://www.w3schools.com/tags/tag_nav.asp
+13. Remove https://www.google.com/search?q=getting+2+slashes+at+end+of+site&oq=getting+2+slashes+at+end+of+site&aqs=chrome..69i57.13170j1j4&client=ms-android-hmd-rev2&sourceid=chrome-mobile&ie=UTF-8
+14. Make demo.pictures HTTPS
+15. server vs client oauth
+16. Get refresh token fro server side flow
+17. dotenv
+18. Push to a ref - The app initiates the flow by crafting a URL containing ID, and optionally scope and state. The app can put this into an <a href=""> tag.
+	- https://www.oauth.com/oauth2-servers/single-page-apps/
+	- https://medium.com/@jackrobertscott/how-to-use-google-auth-api-with-node-js-888304f7e3a0
+19. Text box labels and exmaple code to show whats happening - placeholder text
+20-. https://www.youtube.com/watch?v=Q4RiI7bvpso
+21. https://www.w3schools.com/tags/tag_input.asp - Button Placeholders
+22. Open auth url outside the main page
+23. convert to extension
+

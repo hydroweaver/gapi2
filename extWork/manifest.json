@@ -1,0 +1,30 @@
+{
+    "name": "Hello Extensions Test",
+    "key" : "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsueQNciloOXPSexJgj0mR7IWdobSsKkkF0nZoK4u7QWQC0JCgYYdiRrscycIEKCec6ZyMktZ59AcuTw4ZdARx1Rh3TzNSTbaI0MwzVGTeEP65Ckk1jBN0QRhRg4SbL8K1YqKL8RAwb27PzOgaW1AT8W5QlWg4TIFnrntn0wLYkq8KWEgQcixtjCwMBiVlkeNZQZy8IWLtWeWfLdKDElgD5f1mrYWd++nRRUshcPlv1pq4VilHreHZ3uH9Jajg/61BTeQDqoJFmuKNwuTDRmvUp3hq9EOvsJbBOIxfnb0PtNmMsNK8y2ZmJkyGR3JVfwkkn+LxKG4ki9ZlWcI/TNmtQIDAQAB",
+    "description" : "Base Level Extension",
+    "permissions" : [
+        "identity"
+    ],
+    "oauth2": {
+        "client_id": "501222631724-7rf850ju8gpn09r9drjnr7r5ft6vm5id.apps.googleusercontent.com",
+        "scopes":["https://www.googleapis.com/auth/youtube.readonly"]
+      },
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action" : {
+    "default_popup" : "hello.html",
+	"default_icon" : "hello_extensions.png"
+    },
+    "background" :{
+        "scripts" : ["index.js"]
+    },
+    "commands" : {
+        "_execute_browser_action" : {
+            "suggested_key" : {
+                "default" : "Ctrl+Shift+F",
+                "mac" : "MacCtrl+Shift+F"
+            },
+            "description" : "Opens hello.html"
+        }
+    }
+ }
